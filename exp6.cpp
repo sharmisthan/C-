@@ -5,7 +5,7 @@ using namespace std;
 class Resource
 {
 
-27
+
 
 public:
 Resource()
@@ -35,7 +35,7 @@ ptr = p;
 {
 delete ptr;
 
-28
+
 cout << "Manual smart pointer destroyed" << endl;
 }
 Resource* operator->()
@@ -63,7 +63,7 @@ uniquePtr->use();
 }
 cout << "\n----- shared_ptr -----" << endl;
 
-29
+
 
 {
 shared_ptr<Resource> sharedPtr1 =
